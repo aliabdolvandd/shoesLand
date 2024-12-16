@@ -1,13 +1,9 @@
-import { useState } from "react";
-
-// import Onboarding from "./modules/pages/onboarding";
-// import Authentication from "./pages/auth.page/authentication";
-import ForgotPassForm from "./components/forgotPassForm/forgotPassForm.component";
+import SignUpForm from "./components/signUp/signUpForm.component";
 
 function App() {
   return (
     <>
-      <ForgotPassForm />
+      <SignUpForm />
     </>
   );
 }
